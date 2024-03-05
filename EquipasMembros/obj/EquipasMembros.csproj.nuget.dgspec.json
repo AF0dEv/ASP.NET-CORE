@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\OneDrive - IEFP Formação\\Ambiente de Trabalho\\PJ (1)\\ASP.NET CORE\\EquipasMembros\\EquipasMembros.csproj": {}
+    "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\EquipasMembros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\OneDrive - IEFP Formação\\Ambiente de Trabalho\\PJ (1)\\ASP.NET CORE\\EquipasMembros\\EquipasMembros.csproj": {
+    "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\EquipasMembros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\OneDrive - IEFP Formação\\Ambiente de Trabalho\\PJ (1)\\ASP.NET CORE\\EquipasMembros\\EquipasMembros.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\EquipasMembros.csproj",
         "projectName": "EquipasMembros",
-        "projectPath": "C:\\Users\\admin\\OneDrive - IEFP Formação\\Ambiente de Trabalho\\PJ (1)\\ASP.NET CORE\\EquipasMembros\\EquipasMembros.csproj",
+        "projectPath": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\EquipasMembros.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\OneDrive - IEFP Formação\\Ambiente de Trabalho\\PJ (1)\\ASP.NET CORE\\EquipasMembros\\obj\\",
+        "outputPath": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

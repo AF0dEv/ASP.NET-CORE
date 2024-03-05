@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive - IEFP Forma\u00E7\u00E3o\\Ambiente de Trabalho\\PJ (1)\\ASP.NET CORE\\EquipasMembros\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|c:\\users\\admin\\source\\asp net core\\equipasmembros\\views\\c1_listarequipas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|solutionrelative:views\\c1_listarequipas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|c:\\users\\admin\\source\\asp net core\\equipasmembros\\controllers\\c1_listarequipas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|solutionrelative:controllers\\c1_listarequipas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|c:\\users\\admin\\source\\asp net core\\equipasmembros\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\Views\\C1_ListarEquipas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\C1_ListarEquipas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\Views\\C1_ListarEquipas\\Index.cshtml",
+              "RelativeToolTip": "Views\\C1_ListarEquipas\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T11:42:44.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "C1_ListarEquipas.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\Controllers\\C1_ListarEquipas.cs",
+              "RelativeDocumentMoniker": "Controllers\\C1_ListarEquipas.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\Controllers\\C1_ListarEquipas.cs",
+              "RelativeToolTip": "Controllers\\C1_ListarEquipas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T11:40:34.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\ASP NET CORE\\EquipasMembros\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T11:30:38.317Z",
+              "EditorCaption": ""
             }
           ]
         }
