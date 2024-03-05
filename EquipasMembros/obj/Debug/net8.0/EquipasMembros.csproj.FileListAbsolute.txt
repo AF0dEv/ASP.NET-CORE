@@ -257,7 +257,6 @@ C:\Users\admin\OneDrive - IEFP Formação\Ambiente de Trabalho\PJ (1)\ASP.NET CO
 C:\Users\admin\OneDrive - IEFP Formação\Ambiente de Trabalho\PJ (1)\ASP.NET CORE\EquipasMembros\obj\Debug\net8.0\EquipasMembros.genruntimeconfig.cache
 C:\Users\admin\OneDrive - IEFP Formação\Ambiente de Trabalho\PJ (1)\ASP.NET CORE\EquipasMembros\obj\Debug\net8.0\ref\EquipasMembros.dll
 C:\Users\admin\source\ASP NET CORE\EquipasMembros\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\admin\source\ASP NET CORE\EquipasMembros\bin\Debug\net8.0\appsettings.json
 C:\Users\admin\source\ASP NET CORE\EquipasMembros\bin\Debug\net8.0\EquipasMembros.staticwebassets.runtime.json
 C:\Users\admin\source\ASP NET CORE\EquipasMembros\bin\Debug\net8.0\EquipasMembros.exe
 C:\Users\admin\source\ASP NET CORE\EquipasMembros\bin\Debug\net8.0\EquipasMembros.deps.json
