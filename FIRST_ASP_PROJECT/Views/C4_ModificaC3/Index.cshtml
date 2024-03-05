@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    h1 {
+        color: red;
+    }
+    p {
+        color: blue;
+    }
+    .textbox {
+        border: 1px solid black;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .total {
+        font-weight: bold;
+        font-size: 18px;
+    }
+</style>
+<h1>C3 MODIFICADO</h1>
+<form>
+    <p>Quantidade</p>
+    @Html.TextBox("quantidade", null, new { @class = "textbox" })
+    <p>PREÇO</p>
+    @Html.TextBox("preco", null, new { @class = "textbox" })
+    <br /> <br />
+    <input type="submit" />
+</form>
+
+<p class="total">@ViewBag.TOTAL</p>

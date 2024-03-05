@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\ASP NET CORE\\PizzaProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{914C266F-CEF5-4B1D-86C9-CB6D779365FF}|PizzaProject.csproj|c:\\users\\admin\\source\\asp net core\\pizzaproject\\controllers\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{914C266F-CEF5-4B1D-86C9-CB6D779365FF}|PizzaProject.csproj|solutionrelative:controllers\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{914C266F-CEF5-4B1D-86C9-CB6D779365FF}|PizzaProject.csproj|c:\\users\\admin\\source\\asp net core\\pizzaproject\\views\\pizza\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{914C266F-CEF5-4B1D-86C9-CB6D779365FF}|PizzaProject.csproj|solutionrelative:views\\pizza\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\ASP NET CORE\\PizzaProject\\Controllers\\Pizza.cs",
+              "RelativeDocumentMoniker": "Controllers\\Pizza.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\ASP NET CORE\\PizzaProject\\Controllers\\Pizza.cs",
+              "RelativeToolTip": "Controllers\\Pizza.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:14:31.106Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 160,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\ASP NET CORE\\PizzaProject\\Views\\Pizza\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pizza\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\ASP NET CORE\\PizzaProject\\Views\\Pizza\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pizza\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T15:14:41.141Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

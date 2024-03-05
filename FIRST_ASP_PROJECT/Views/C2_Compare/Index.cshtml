@@ -3,11 +3,27 @@
 *@
 @{
 }
-
+<style>
+    h1 {
+        color: red;
+    }
+    p {
+        color: blue;
+    }
+    .textbox {
+        border: 1px solid black;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .resposta {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    </style>
 <h1>INTRODUZA CHAVE</h1>
 <form>
     @Html.TextBox("chave")
     <input type="submit" />
 </form>
 
-@ViewBag.RESPOSTA
+<p class="resposta">@ViewBag.RESPOSTA</p>
