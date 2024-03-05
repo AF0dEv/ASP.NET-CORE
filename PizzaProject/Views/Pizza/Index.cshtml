@@ -1,34 +1,37 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-<h1>ESCOLHA DE PIZZA</h1>
-<form>
+﻿<form>
 
     Pizza @Html.DropDownList("cbxPizza", (SelectList)ViewBag.PIZZA)
-    Quantidade @Html.TextBox("txtQuantidade")
+    <br />
+    <br />
+    Quantidade @Html.TextBox("txtQuantidade", null, new { style = "width: 30px;" })
+    <br />
     Total: @ViewBag.TOTALPIZZA
     <br />
     <br />
-    Pimento @Html.CheckBox("chkPimento")
-    Cebola @Html.CheckBox("chkCebola")
-    Tomate @Html.CheckBox("chkTomate")
-    Quantidade  @Html.TextBox("txtQuantidadeExtra")
+    Pimento 3€ @Html.CheckBox("chkPimento")
+    <br />
+    <br />
+    Cebola 2€ @Html.CheckBox("chkCebola")
+    <br />
+    <br />
+    Tomate 1€ @Html.CheckBox("chkTomate")
+    <br />
+    <br />
+    Quantidade  @Html.TextBox("txtQuantidadeExtra", null, new { style = "width: 30px;" })
+    <br />
     Total: @ViewBag.TOTALEXTRA
     <br />
     <br />
     Desconto de 10% ?
     <br />
     Não
-    @Html.RadioButton("opcao", 1, true)
+    @Html.RadioButton("opcao", "naoDesconto", true)
+    
     Sim
-
-    @Html.RadioButton("opcao", 2, false)
+    @Html.RadioButton("opcao", "temDesconto", false)
     <br />
     <br />
     Total: @ViewBag.TOTAL
     <br />
     <input type="submit" value="Enviar" />
 </form>
-

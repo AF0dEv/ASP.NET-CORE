@@ -5,57 +5,61 @@ namespace PizzaProject.Controllers
 {
     public class Pizza : Controller
     {
-        public IActionResult Index(bool chkPimento, bool chkCebola, bool chkTomate, string cbxPizza, string txtQuantidade, string txtQuantidadeExtra, int opcao )
+        public IActionResult Index(bool chkPimento, bool chkCebola, bool chkTomate, string cbxPizza, string txtQuantidade, string txtQuantidadeExtra, string opcao )
         {
             List<string> pizzas = new List<string>();
-            pizzas.Add("Pepperoni");
-            pizzas.Add("Hawaiian");
-            pizzas.Add("Meat Lovers");
+            pizzas.Add("Pepperoni 10€");
+            pizzas.Add("Hawaiian 15€");
+            pizzas.Add("Meat Lovers 20€");
             ViewBag.PIZZA = new SelectList(pizzas);
 
             int Pepperoni = 10;
             int Hawaiian = 15;
             int MeatLovers = 20;
-            int Pimento = 2;
-            int Cebola = 1;
+            int Pimento = 3;
+            int Cebola = 2;
             int Tomate = 1;
-            int totalPizza = 0;
-            int totalExtra = 0;
-            int total = 0;
+            double totalPizza = 0;
+            double totalExtra = 0;
+            double total = 0;
 
             if(cbxPizza == "Pepperoni")
             {
-                totalPizza = Pepperoni * Convert.ToInt32(txtQuantidade);
-                @ViewBag.TOTALPIZZA = totalPizza;
+                totalPizza = Pepperoni;
             }
             else if(cbxPizza == "Hawaiian")
             {
-                totalPizza = Hawaiian * Convert.ToInt32(txtQuantidade);
-                @ViewBag.TOTALPIZZA = totalPizza;
+                totalPizza = Hawaiian;
             }
             else if(cbxPizza == "Meat Lovers")
             {
-                totalPizza = MeatLovers * Convert.ToInt32(txtQuantidade);
-                @ViewBag.TOTALPIZZA = totalPizza;
+                totalPizza = MeatLovers;
             }
+
+            totalPizza = totalPizza * Convert.ToInt16(txtQuantidade);
+            @ViewBag.TOTALPIZZA = totalPizza;
+
 
             if (chkCebola)
             {
-                totalExtra = totalExtra + (Cebola * Convert.ToInt32(txtQuantidadeExtra));
-            }else if(chkPimento)
-            {
-                totalExtra = totalExtra + (Pimento * Convert.ToInt32(txtQuantidadeExtra));
+                totalExtra = (totalExtra + Cebola);
             }
-            else if (chkTomate)
+            if (chkPimento)
             {
-                totalExtra = totalExtra + (Tomate * Convert.ToInt32(txtQuantidadeExtra));
+                totalExtra = (totalExtra + Pimento);
             }
+            if (chkTomate)
+            {
+                totalExtra = (totalExtra + Tomate);
+            }
+            totalExtra = totalExtra  * Convert.ToInt32(txtQuantidadeExtra);
+
 
             total = totalPizza + totalExtra;
 
-            if (opcao == 1)
+            if (opcao == "temDesconto")
             {
-                total = total + (total * 10 / 100);
+                total = total - (total * 0.1);
             }
 
             @ViewBag.TOTALEXTRA = totalExtra.ToString();
