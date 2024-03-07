@@ -34,6 +34,50 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzFfTGlzdGFyRXF1aXBhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/C2_ComboEquipaMembro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzJfQ29tYm9FcXVpcGFNZW1icm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/C3_MembrosTabela/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzNfTWVtYnJvc1RhYmVsYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/C4_DropsEquipasMembros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzRfRHJvcHNFcXVpcGFzTWVtYnJvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/C5_MembrosPorEquipa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzVfTWVtYnJvc1BvckVxdWlwYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/C6_EquipaPorMembros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzZfRXF1aXBhUG9yTWVtYnJvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/C7_DropMembrosPorEquipa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzdfRHJvcE1lbWJyb3NQb3JFcXVpcGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/Equipas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/Equipas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/Equipas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/Equipas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/Equipas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/admin/source/ASP NET CORE/EquipasMembros/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

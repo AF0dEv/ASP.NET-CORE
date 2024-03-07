@@ -10,3 +10,11 @@
         <li>@item.NomeEquipa</li>
     </ul>
 }
+<br />
+<p class="display-1" style="color: aqua">Lista de Jogadores:</p>
+@foreach (var item in ViewBag.MEMBROS)
+{
+    <ul class="list-group">
+        <li>@item.NomeMembro</li>
+    </ul>
+}

@@ -1,0 +1,16 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<p>Membros:</p>
+@foreach (Membro item in ViewBag.MEMBROS)
+{
+    @item.NomeMembro @:&rarr;
+    @foreach (Equipa item2 in ViewBag.EQUIPAS){
+        if (item2.Id == item.EquipaId){
+            @item2.NomeEquipa
+        }
+    }
+    <br />
+}   

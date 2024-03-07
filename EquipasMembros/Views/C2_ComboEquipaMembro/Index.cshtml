@@ -1,0 +1,16 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<p class="display-1" style="color:aqua">Lista de Equipas:</p>
+
+@Html.DropDownList("combo", (SelectList)ViewBag.EQUIPAS)
+<br />
+<p class="display-1" style="color: aqua">Lista de Jogadores:</p>
+@foreach (var item in ViewBag.MEMBROS)
+{
+    <ul class="list-group">
+        <li>@item.NomeMembro</li>
+    </ul>
+}

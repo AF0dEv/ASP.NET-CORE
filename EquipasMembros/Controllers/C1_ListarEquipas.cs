@@ -15,6 +15,9 @@ namespace EquipasMembros.Controllers
         {
             @ViewBag.EQUIPAS = dbp.Tequipas.ToList();
 
+            @ViewBag.MEMBROS = dbp.Tmembros.ToList();
+
+
             return View();
         }
     }

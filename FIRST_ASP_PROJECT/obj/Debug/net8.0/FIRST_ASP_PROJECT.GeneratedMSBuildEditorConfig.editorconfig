@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FIRST_ASP_PROJECT
+build_property.RootNamespace = FIRST_ASP_PROJECT
+build_property.ProjectDir = C:\Users\admin\source\ASP NET CORE\FIRST_ASP_PROJECT\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\admin\source\ASP NET CORE\FIRST_ASP_PROJECT
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/C1b_Contador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzFiX0NvbnRhZG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/C2_Compare/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzJfQ29tcGFyZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/C3_PrecoQtd/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzNfUHJlY29RdGRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/C4_ModificaC3/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzRfTW9kaWZpY2FDM1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/C5_PrecoQtdDesc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzVfUHJlY29RdGREZXNjXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/C6_ContarChecks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzZfQ29udGFyQ2hlY2tzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/C7_ComboBox/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzdfQ29tYm9Cb3hcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/C8_RadioButton2X/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQzhfUmFkaW9CdXR0b24yWFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/classTest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2xhc3NUZXN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/ASP NET CORE/FIRST_ASP_PROJECT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ip2e7y41qc

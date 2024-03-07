@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using (Html.BeginForm("Index", "C7_DropMembrosPorEquipa", FormMethod.Post))
+{
+    <p>EQUIPAS:</p>
+    <br />
+    @Html.DropDownList("comboE", (SelectList)ViewBag.EQUIPAS, "Selecione Equipa")
+    <br />
+    @if (ViewBag.MEMBROS != null && ViewBag.MEMBROS.ToString() != "vazio")
+    {
+        @foreach (Membro item in ViewBag.MEMBROS)
+        {
+            <p>@item.NomeMembro</p>
+        }
+    }
+    else
+    {
+        <p>Não Existe Membros nesta Equipa</p>
+    }
+
+    <input type="submit" value="Submit" />
+}
+
