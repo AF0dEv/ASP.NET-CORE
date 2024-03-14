@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Membros Ordem Alfabética</h1>
+@if (ViewBag.LISTAMEMBROS != null)
+{
+    @foreach (Membro item in ViewBag.LISTAMEMBROS)
+    {
+        <p>@item.NomeMembro</p>
+    }
+}
+else
+{
+    <p>Não Existe Membros nesta Equipa</p>
+}
