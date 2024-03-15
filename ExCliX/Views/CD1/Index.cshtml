@@ -1,0 +1,104 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selecione um Cliente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        select {
+            padding: 5px;
+            width: 200px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .table th, .table td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selecione um Cliente</h1>
+    @using (Html.BeginForm("Index", "CD1", FormMethod.Post))
+    {
+        @Html.DropDownList("cbxClientes", (SelectList)ViewBag.LISTACLIENTES,
+        @htmlAttributes: new {@onchange="this.form.submit();"})
+ 
+        <br />
+        @if (ViewBag.CONTACTOS != null && ViewBag.CONTACTOS.ToString() != "vazio")
+        {
+            <table class="table table-striped">
+                <tr>
+                    <th>Item1</th>
+                    <th>Item2</th>
+                    <th>Texto</th>
+                </tr>
+                @foreach (Item item in ViewBag.CONTACTOS)
+                {
+                    <tr>
+                        <td>@item.Item1</td>
+                        <td>@item.Item2</td>
+                        <td>@item.Texto</td>
+                    </tr>
+                }
+            </table>
+        }
+        else
+        {   
+            <p>Não Existe Contactos</p>
+        }
+    }
+</body>
+</html>

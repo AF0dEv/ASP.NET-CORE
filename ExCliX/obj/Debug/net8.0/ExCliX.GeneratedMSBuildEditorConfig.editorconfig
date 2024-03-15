@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ExCliX
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/CD1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0QxXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
