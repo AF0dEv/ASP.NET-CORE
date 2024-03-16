@@ -26,5 +26,9 @@ body {
 }
 
 .navbar {
-    background: transparent;
+    background:transparent;
+}
+
+.dropdown-menu {
+    background-color: darkblue;
 }
