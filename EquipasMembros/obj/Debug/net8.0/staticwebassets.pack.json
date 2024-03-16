@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\EquipasMembros.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
       "Id": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\wwwroot\\images\\championsleaguebg.jpg",
+      "PackagePath": "staticwebassets\\images\\championsleaguebg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\wwwroot\\images\\transferir (1).png",
+      "PackagePath": "staticwebassets\\images\\transferir (1).png"
     },
     {
       "Id": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\wwwroot\\js\\site.js",
