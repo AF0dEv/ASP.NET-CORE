@@ -8,13 +8,9 @@
 <head>
     <title>Selecione um Cliente</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
 
         h1 {
-            color: #333;
+            color: black;
             text-align: center;
             margin-top: 50px;
         }
@@ -50,23 +46,6 @@
         input[type="submit"]:hover {
             background-color: #45a049;
         }
-
-        .table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        .table th, .table td {
-            padding: 8px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .table th {
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
@@ -79,10 +58,10 @@
         <br />
         @if (ViewBag.CONTACTOS != null && ViewBag.CONTACTOS.ToString() != "vazio")
         {
-            <table class="table table-striped">
+            <table class="table table-striped table-borderless table-dark">
                 <tr>
-                    <th>Item1</th>
-                    <th>Item2</th>
+                    <th>Item 1</th>
+                    <th>Item 2</th>
                     <th>Texto</th>
                 </tr>
                 @foreach (Item item in ViewBag.CONTACTOS)

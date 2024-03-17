@@ -3,25 +3,19 @@
 @{
     ViewData["Title"] = "Details";
 }
-<style>
-    mark{
-        background-color:blue;
-        color: white;
-    }
-</style>
 <h1 class="h1 text-black">Details</h1>
 
 <div>
     <h4 class="h4 text-black-50">Equipa</h4>
     <hr />
-    <dl class="row">
-        <dt class="col-sm-2 text-black">
-            Nome Equipa:
-        </dt>
-        <dd class="col-sm-2">
-            <mark>@Html.DisplayFor(model => model.NomeEquipa)</mark>
-        </dd>
-    </dl>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark">
+            <text class="fw-bold">Nome Equipa:</text>
+        
+        
+            @Html.DisplayFor(model => model.NomeEquipa)
+        </li>
+    </ul>
 </div>
 <div>
     <a class="link-light" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |

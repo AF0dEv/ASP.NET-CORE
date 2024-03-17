@@ -18,5 +18,17 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background-image: url(../images/accountability-home-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 60px;
+}
+
+.navbar {
+    background: transparent;
+}
+
+.dropdown-menu {
+    background-color:transparent;
 }

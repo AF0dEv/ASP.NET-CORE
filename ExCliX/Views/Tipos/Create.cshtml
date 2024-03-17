@@ -4,16 +4,15 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
-<h4>Tipo</h4>
+<h1 class="h1 text-black">Create</h1>
+<h4 class="h4 text-white-50">Tipo</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Designacao" class="control-label"></label>
+                <label asp-for="Designacao" class="control-label text-white">Designação:</label>
                 <input asp-for="Designacao" class="form-control" />
                 <span asp-validation-for="Designacao" class="text-danger"></span>
             </div>
@@ -25,7 +24,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="link-info" asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

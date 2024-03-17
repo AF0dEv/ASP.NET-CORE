@@ -1,0 +1,33 @@
+﻿#homediv {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#nameh1 {
+    font-family: dock11;
+    font-size: 300px;
+    letter-spacing: 10px;
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: url(../images/1125500-download-free-matrix-backgrounds-1920x1080-cell-phone.jpg);
+    background-size: 120%;
+    animation: bg-animation 30s cubic-bezier(0.3,0,0.7,1) infinite;
+}
+@keyframes bg-animation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}

@@ -3,26 +3,19 @@
 @{
     ViewData["Title"] = "Delete";
 }
-<style>
-    mark {
-        background-color: blue;
-        color: white;
-    }
-</style>
 <h1 class="h1 text-black">Delete</h1>
 
 <h3 class="h3 text-black-50">Tem a certeza que quer apagar esta</h3>
 <div>
     <h4 class="h4 text-black-50">Equipa?</h4>
     <hr />
-    <dl class="row">
-        <dt class="col-sm-2 text-black">
-            Nome Equipa:
-        </dt>
-        <dd class="col-sm-2">
-            <mark>@Html.DisplayFor(model => model.NomeEquipa)</mark>
-        </dd>
-    </dl>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark">
+            <text class="fw-bold">Nome Equipa:</text>
+
+            @Html.DisplayFor(model => model.NomeEquipa)
+        </li>
+    </ul>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
