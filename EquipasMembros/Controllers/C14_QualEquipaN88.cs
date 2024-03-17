@@ -21,7 +21,7 @@ namespace EquipasMembros.Controllers
             }
             else
             {
-                ViewBag.EQUIPA = "Equipa não existe!";
+                ViewBag.EQUIPA = "Equipa Não Existe!";
             }
             return View();
         }

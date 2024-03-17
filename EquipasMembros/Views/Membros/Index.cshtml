@@ -4,16 +4,16 @@
     ViewData["Title"] = "Index";
 }
 
-<h1 class="h1 text-white">MEMBROS</h1>
+<h1 class="h1 text-black">MEMBROS</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="link-dark" asp-action="Create">Create New</a>
 </p>
 <table class="table table-striped table-borderless table-dark">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NomeMembro)
+                Nome Membro:
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Equipa)

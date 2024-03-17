@@ -1,0 +1,15 @@
+﻿<h1 class="h1 text-black">Lista de Jogadores e Equipas:</h1>
+@foreach (Membro item in ViewBag.MEMBROS)
+{
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark">@item.NomeMembro
+        @foreach (Equipa item2 in ViewBag.EQUIPAS)
+        {
+            if (item2.Id == item.EquipaId)
+            {
+                @:&rarr; @item2.NomeEquipa</li>
+            }
+        }
+    </ul>
+    <br />
+}

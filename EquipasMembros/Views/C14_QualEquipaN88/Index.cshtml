@@ -3,5 +3,10 @@
 *@
 @{
 }
-<h1>EQUIPA N 88</h1>
-@ViewBag.EQUIPA
+<h1 class="h1 text-black">Equipa Nº88:</h1>
+@if (ViewBag.EQUIPA != null )
+{
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark">@ViewBag.EQUIPA</li>
+    </ul>
+}

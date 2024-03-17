@@ -3,28 +3,34 @@
 @{
     ViewData["Title"] = "Details";
 }
+<style>
+    mark{
+        background-color:blue;
+        color: white;
+    }
+</style>
 
-<h1>Details</h1>
+<h1 class="h1 text-black">Details</h1>
 
 <div>
-    <h4>Membro</h4>
+    <h4 class="h4 text-black-50">Membro</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NomeMembro)
+        <dt class="col-sm-2 text-black">
+            Nome Membro:
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NomeMembro)
+            <mark>@Html.DisplayFor(model => model.NomeMembro)</mark>
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Equipa)
+        <dt class="col-sm-2 text-black">
+            Equipa:
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Equipa.Id)
+            <mark>@Html.DisplayFor(model => model.Equipa.Id)</mark>
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a class="link-light" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a class="link-light" asp-action="Index">Back to List</a>
 </div>

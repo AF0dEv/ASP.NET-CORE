@@ -3,15 +3,19 @@
 *@
 @{
 }
-<h1>EQUIPAS ORDENADAS DESCENDENTE</h1>
+<h1 class="h1 text-black">Equipas Ordenadas Descendente:</h1>
 @if (ViewBag.EQUIPASDESCENDENTE != null)
 {
+    <ul>
     @foreach (Equipa item in ViewBag.EQUIPASDESCENDENTE)
     {
-        <p>@item.NomeEquipa</p>
-    }
+            <li class="list-group-item list-group-item-dark">@item.NomeEquipa</li>
+        }
+    </ul>
 }
 else
 {
-    <p>Não Existe Membros nesta Equipa</p>
+    <ul>
+        <li class="list-group-item list-group-item-dark">Não Existe Membros nesta Equipa</li>
+    </ul>
 }

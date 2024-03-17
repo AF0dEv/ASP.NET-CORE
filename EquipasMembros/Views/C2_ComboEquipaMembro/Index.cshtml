@@ -3,14 +3,15 @@
 *@
 @{
 }
-<p class="display-1" style="color:aqua">Lista de Equipas:</p>
+
+<h1 class="h1 text-black">Lista de Equipas:</h1>
 
 @Html.DropDownList("combo", (SelectList)ViewBag.EQUIPAS)
 <br />
-<p class="display-1" style="color: aqua">Lista de Jogadores:</p>
+<h1 class="h1 text-black">Lista de Jogadores:</h1>
 @foreach (var item in ViewBag.MEMBROS)
 {
     <ul class="list-group">
-        <li>@item.NomeMembro</li>
+        <li class="list-group-item list-group-item-dark ">@item.NomeMembro</li>
     </ul>
 }

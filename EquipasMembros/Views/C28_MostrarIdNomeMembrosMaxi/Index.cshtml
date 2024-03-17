@@ -1,0 +1,12 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1 class="h1 text-black">Membros e ID Equipa"Maximinense":</h1>
+<ul class="list-group">
+    @foreach (var item in ViewBag.MEMBROS)
+    {
+        <li class="list-group-item list-group-item-dark">@item.NomeMembro, @item.Id</li>
+    }
+</ul>

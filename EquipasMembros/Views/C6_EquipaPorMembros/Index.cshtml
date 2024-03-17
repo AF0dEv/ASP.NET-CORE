@@ -3,13 +3,19 @@
 *@
 @{
 }
-<p>Membros:</p>
+<style>
+    mark {
+        background-color: blue;
+        color: white;
+    }
+</style>
+<h1 class="h1 text-black">Lista de Jogadores e Equipas:</h1>
 @foreach (Membro item in ViewBag.MEMBROS)
 {
-    @item.NomeMembro @:&rarr;
+    <mark>@item.NomeMembro</mark> @:&rarr;
     @foreach (Equipa item2 in ViewBag.EQUIPAS){
         if (item2.Id == item.EquipaId){
-            @item2.NomeEquipa
+            <mark>@item2.NomeEquipa</mark>
         }
     }
     <br />

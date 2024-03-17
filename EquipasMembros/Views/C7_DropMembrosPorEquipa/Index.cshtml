@@ -3,24 +3,34 @@
 *@
 @{
 }
+<style>
+    mark {
+        background-color: blue;
+        color: white;
+    }
+</style>
 @using (Html.BeginForm("Index", "C7_DropMembrosPorEquipa", FormMethod.Post))
 {
-    <p>EQUIPAS:</p>
-    <br />
+    <h1 class="h1 text-black">Equipas:</h1>
     @Html.DropDownList("comboE", (SelectList)ViewBag.EQUIPAS, "Selecione Equipa")
+    <br />
     <br />
     @if (ViewBag.MEMBROS != null && ViewBag.MEMBROS.ToString() != "vazio")
     {
         @foreach (Membro item in ViewBag.MEMBROS)
         {
-            <p>@item.NomeMembro</p>
+           <ul class="list-group">
+                <li class="list-group-item list-group-item-dark">@item.NomeMembro</li>
+           </ul>   
         }
     }
     else
     {
-        <p>Não Existe Membros nesta Equipa</p>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-dark">Não Existe Membros nesta Equipa</li>
+        </ul>
     }
 
-    <input type="submit" value="Submit" />
+    <input class="btn btn-primary" type="submit" value="Submit" />
 }
 

@@ -3,15 +3,19 @@
 *@
 @{
 }
-<h1>Membros Ordem Alfabética</h1>
+<h1 class="h1 text-black">Membros Ordem Alfabética</h1>
 @if (ViewBag.LISTAMEMBROS != null)
 {
+    <ul class="list-group">
     @foreach (Membro item in ViewBag.LISTAMEMBROS)
     {
-        <p>@item.NomeMembro</p>
+       <li class="list-group-item list-group-item-dark">@item.NomeMembro</li>
     }
+    </ul>
 }
 else
 {
-    <p>Não Existe Membros nesta Equipa</p>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark">Não Existe Membros nesta Equipa</li>
+    </ul>
 }
