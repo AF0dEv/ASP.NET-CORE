@@ -1,0 +1,131 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ExCliX
+build_property.RootNamespace = ExCliX
+build_property.ProjectDir = C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ExCliX\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ExCliX
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/CD1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0QxXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/CD2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0QyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/CD3/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0QzXENyaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/CD3/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0QzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Items/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Items/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Items/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Items/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Items/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Tipos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Tipos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Tipos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Tipos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Tipos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ExCliX/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xz03czqyfp

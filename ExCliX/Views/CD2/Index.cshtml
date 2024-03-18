@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Selecione um Cliente</title>
+    <style>
+
+        h1 {
+            color: black;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        select {
+            padding: 5px;
+            width: 200px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+@using (Html.BeginForm("Index", "CD2", FormMethod.Post))
+{
+    <div class="form-group">
+        <label for="txtNome">FILTRO:</label>
+        @Html.TextBox("txtNome")
+    </div>
+        @Html.DropDownList("cbxClientes", (SelectList)ViewBag.LISTACLIENTES)
+        <br />
+    <button type="submit" class="btn btn-primary">Buscar</button>
+}
+
+
+
+</body>
+</html>

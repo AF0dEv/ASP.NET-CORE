@@ -52,7 +52,7 @@
     <h1>Selecione um Cliente</h1>
     @using (Html.BeginForm("Index", "CD1", FormMethod.Post))
     {
-        @Html.DropDownList("cbxClientes", (SelectList)ViewBag.LISTACLIENTES,
+        @Html.DropDownList("cbxClientes" ,(SelectList)ViewBag.LISTACLIENTES,"Escolha um Cliente...",
         @htmlAttributes: new {@onchange="this.form.submit();"})
  
         <br />
