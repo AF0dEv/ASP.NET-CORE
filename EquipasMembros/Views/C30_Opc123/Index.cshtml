@@ -3,6 +3,7 @@
 *@
 @{
 }
+@*
 <form>
 @foreach (Equipa c in ViewBag.EQUIPAS)
 {
@@ -22,7 +23,13 @@
     }
 </form>
 <hr />
-
+*@
+<style>
+    h3{
+        text-shadow: 2px 2px 5px white;
+    }
+</style>
+<form>
 <table class="table table-striped table-borderless table-dark">
     <thead>
         <tr>
@@ -33,15 +40,57 @@
     <tbody>
     @foreach (Equipa c in ViewBag.EQUIPAS)
     {
-        <tr>
+        string selectedRow = "";
+        @if (ViewBag.EQUIPACLICADA == c.Id)
+        {
+            selectedRow = "table-success";
+        }
+        <tr class="@selectedRow"> 
             <td>
-                    @c.NomeEquipa
+                @c.NomeEquipa
             </td>
-    
+
             <td>
-               @Html.ActionLink("Selecionar", "Index", new { alEquipas = c.Id }, null)
+                @Html.ActionLink("Selecionar", "Index", new { alEquipas = c.Id }, null)
             </td>
         </tr>
     }
     </tbody>
 </table>
+<hr />
+<br />
+@if (ViewBag.MEMBROS != null)
+{
+    <table class="table table-striped table-borderless table-dark">
+        <thead>
+            <tr>
+                <th>ID</th>
+            
+                <th>NOME</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Membro m in ViewBag.MEMBROS)
+            {
+
+                <tr>
+                    <td>
+                        @m.Id
+                    </td>
+
+                    <td>
+                        @m.NomeMembro
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<hr />
+        <h3>NUMERO DE EQUIPA SELECIONADA: @ViewBag.EQUIPACLICADA</h3>
+
+    <h3>NOME DE EQUIPA SELECIONADA  @ViewBag.EQUIPASELECIONADA</h3>
+        
+        <h3>TOTAL DE MEMBROS DA EQUIPA SELECIONADA: @ViewBag.MEMBROSEQUIPA</h3>
+        <h3>TOTAL DE MEMBROS (TODAS AS EQUIPAS): @ViewBag.COUNTMEMBROS</h3>
+</form>
