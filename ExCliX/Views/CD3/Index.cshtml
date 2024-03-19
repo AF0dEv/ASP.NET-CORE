@@ -11,3 +11,33 @@
 <p>
     <a class="link-info" asp-action="Criar">Create New</a>
 </p>
+<table class="table table-striped table-borderless table-dark">
+    <thead>
+        <tr>
+            <th>
+               Nome
+            </th>
+            <th>
+                Referência
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Cliente c in ViewBag.CLIENTES)
+        {
+            <tr>
+                <td>
+                    @c.Nome
+                </td>
+                <td>
+                    @c.Referencia
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@c.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@c.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

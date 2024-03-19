@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExCliX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36229b9c766f1e18b7b7d6324b23f7b33c3fbee5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53ca77cd21f169ce798b9ec77a3dca217bf2414b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExCliX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExCliX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
