@@ -1,0 +1,80 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    h1 {
+        text-shadow: 2px 2px 5px white;
+    }
+    h3{
+        text-shadow: 2px 2px 5px white;
+    }
+    p{
+        text-shadow: 2px 2px 5px white;
+    }
+    label{
+        text-shadow: 2px 2px 5px white;
+    }
+</style>
+
+<h1 class="h1 text-black">PRODUÇÃO 1</h1>
+<hr />
+<br />
+@* Exercicio 1 *@
+<h3 class="h3 text-black-50">Exercicio 1</h3>
+<ul class="list-group">
+@if (ViewBag.CLIENTES != null)
+{ 
+    <li class="list-group-item list-group-item-dark">
+    @foreach (Cliente c in ViewBag.CLIENTES)
+    {
+           @string.Concat(c.Nome, "@")
+    }
+    </li>
+}
+</ul>
+<hr />
+@* Exercicio 2 *@
+<h3 class="h3 text-black-50">Exercicio 2</h3>
+<ul class="list-group">
+@if (ViewBag.ITEMS != null)
+{
+    <li class="list-group-item list-group-item-dark">
+    @foreach (var item in ViewBag.ITEMS)
+    {
+        @string.Concat(item.Nome, ";", item.Item1, ";", item.Item2, ";", item.Texto, "@")
+    }
+    </li>
+}
+</ul>
+<hr />
+@* Exercicio 3 *@
+<h3 class="h3 text-black-50">Exercicio 3</h3>
+@using (Html.BeginForm("Index", "PROD1", FormMethod.Post))
+{
+    <div class="form-group">
+        <label for="txtTipo">FILTRO TIPO:</label>
+        @Html.TextBox("txtTipo")
+        <label>[OPÇÕES: Morada, Email, PROGRAMA 2030]</label>
+    </div>
+    @Html.DropDownList("cbxClientes", (SelectList)ViewBag.LISTACLIENTES)
+    <br />
+    <button type="submit" class="btn btn-primary">Buscar</button>
+}
+<ul class="list-group">
+@if (ViewBag.INFOTIPO.Count > 0)
+{
+        <li class="list-group-item list-group-item-dark">
+    @foreach (Item item in ViewBag.INFOTIPO)
+    {
+        @item.Item1 @:
+        @item.Item2 @:
+        @item.Texto
+    }
+    </li>
+}
+else{
+        <li class="list-group-item list-group-item-dark">Não Existe Registos desse Tipo Para esse Cliente</li>
+}
+</ul>
