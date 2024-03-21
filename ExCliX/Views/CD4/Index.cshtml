@@ -1,0 +1,47 @@
+﻿@* O Model desta View tem por Base um ViewModel que contem uma Lista de Clientes, Tipos e Items *@
+@model ExCliX.Models.ClientesTiposItems
+
+@{
+    <style>
+        h1 {
+            text-shadow: 2px 2px 5px white;
+        }
+    </style>
+    <h1 class="h1 text-black">ITEMS</h1>
+    <p>
+        <a class="link-info" asp-action="Criar">Create New</a>
+    </p>
+    <div class="justify-content-center mb-3">
+    @Html.DropDownList("cbxClientes", new SelectList(Model.Clientes, "Id", "Nome"), "Selecione um Cliente", new { @class = "form-control" })
+    </div>
+    <table class="table table-striped table-borderless table-dark">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Clientes)
+                </th>
+                <th>
+                    Referência
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Clientes)
+            {
+                <tr>
+                    <td>
+                        @item.Nome
+                    </td>
+                    <td>
+                        @item.Referencia
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
