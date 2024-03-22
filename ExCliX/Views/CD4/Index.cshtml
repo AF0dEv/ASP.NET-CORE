@@ -3,38 +3,94 @@
 
 @{
     <style>
+
         h1 {
-            text-shadow: 2px 2px 5px white;
+        color: black;
+        text-align: center;
+        margin-top: 50px;
+        }
+
+        form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        }
+
+        label {
+        font-weight: bold;
+        margin-bottom: 10px;
+        }
+
+        select {
+        padding: 5px;
+        width: 200px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+        background-color: #45a049;
         }
     </style>
     <h1 class="h1 text-black">ITEMS</h1>
-    <p>
-        <a class="link-info" asp-action="Criar">Create New</a>
-    </p>
-    <div class="justify-content-center mb-3">
-    @Html.DropDownList("cbxClientes", new SelectList(Model.Clientes, "Id", "Nome"), "Selecione um Cliente", new { @class = "form-control" })
+
+    
+    @using (Html.BeginForm("Index", "CD4", FormMethod.Post))
+    {
+    <div>
+        @Html.DropDownList("cbxClientes", new SelectList(Model.Clientes, "Id", "Nome"), "Selecione um Cliente", new { @class = "form-control" })
+        <button type="submit" class="btn btn-primary">Buscar</button>
     </div>
+        @if (Model.Items != null)
+        {
+            <p>
+                <a class="link-info" asp-action="Criar" asp-route-Id="@ViewBag.IDCLIENTESELECIONADO">Create New</a>
+            </p>
     <table class="table table-striped table-borderless table-dark">
         <thead>
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.Clientes)
+                    Item 1
                 </th>
                 <th>
-                    Referência
+                   Item 2 
+                </th>
+                <th>
+                    Texto
+                </th>
+                <th>
+                    ID Tipo
                 </th>
                 <th></th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model.Clientes)
+
+                  
+            @foreach (var item in Model.Items)
             {
                 <tr>
                     <td>
-                        @item.Nome
+                        @item.Item1
                     </td>
                     <td>
-                        @item.Referencia
+                        @item.Item2
+                    </td>
+                    <td>
+                        @item.Texto
+                    </td>
+                    <td>
+                        @item.TipoId
                     </td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
@@ -44,4 +100,6 @@
             }
         </tbody>
     </table>
-}
+    }
+ }
+ }
