@@ -45,13 +45,13 @@
     <h1 class="h1 text-black">ITEMS</h1>
 
     
-    @using (Html.BeginForm("Index", "CD4", FormMethod.Post))
+    @using (Html.BeginForm("Index", "CD4"))
     {
     <div>
-        @Html.DropDownList("cbxClientes", new SelectList(Model.Clientes, "Id", "Nome"), "Selecione um Cliente", new { @class = "form-control" })
+        @Html.DropDownList("cbxClientes", (SelectList)ViewBag.CLIENTES, "Selecione um Cliente")
         <button type="submit" class="btn btn-primary">Buscar</button>
     </div>
-        @if (Model.Items != null)
+        @if (ViewBag.CLIENTESELECIONADO != null)
         {
             <p>
                 <a class="link-info" asp-action="Criar" asp-route-Id="@ViewBag.IDCLIENTESELECIONADO">Create New</a>
@@ -77,7 +77,7 @@
         <tbody>
 
                   
-            @foreach (var item in Model.Items)
+            @foreach (Item item in ViewBag.CLIENTESELECIONADO)
             {
                 <tr>
                     <td>
@@ -93,8 +93,8 @@
                         @item.TipoId
                     </td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        <a asp-action="Editar" asp-route-IdItem="@item.Id">Edit</a> |
+                        <a asp-action="Delete" asp-route-IdItem="@item.Id">Delete</a>
                     </td>
                 </tr>
             }

@@ -1,0 +1,53 @@
+﻿@model ExCliX.Models.Item
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1>Editar</h1>
+<h4>Item</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Editar">
+
+            <input asp-for="Id" class="form-control" type="hidden" value="@ViewBag.CLIENTESELECIONADO.Id" />
+
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group"></div>
+            <label asp-for="Item1" class="control-label">Item 1:</label>
+            <input asp-for="Item1" class="form-control" value="@ViewBag.CLIENTESELECIONADO.Item1" />
+            <span asp-validation-for="Item1" class="text-danger"></span>
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group"></div>
+            <label asp-for="Item2" class="control-label">Item 2:</label>
+            <input asp-for="Item2" class="form-control" value="@ViewBag.CLIENTESELECIONADO.Item2" />
+            <span asp-validation-for="Item2" class="text-danger"></span>
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group"></div>
+            <label asp-for="Texto" class="control-label">Texto:</label>
+            <input asp-for="Texto" class="form-control" value="@ViewBag.CLIENTESELECIONADO.Texto" />
+            <span asp-validation-for="Texto" class="text-danger"></span>
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group"></div>
+            <label asp-for="TipoId" class="control-label">TipoId:</label>
+            <input asp-for="TipoId" class="form-control" value="@ViewBag.CLIENTESELECIONADO.TipoId" />
+            <span asp-validation-for="TipoId" class="text-danger"></span>
+
+
+            <input asp-for="ClienteId" class="form-control" type="hidden" value="@ViewBag.CLIENTESELECIONADO.ClienteId" />
+
+
+            <div class="form-group">
+                <input type="submit" value="Edit" class="btn btn-primary" />
+            </div>
+        </form>
+        <div>
+            <a class="link-info" asp-action="Index">Back to List</a>
+        </div>
+    </div>
+</div>
