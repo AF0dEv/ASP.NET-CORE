@@ -7,7 +7,6 @@ C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ProjAfonso\obj\Debu
 C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ProjAfonso\obj\Debug\net8.0\ProjAfonso.RazorAssemblyInfo.cache
 C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ProjAfonso\obj\Debug\net8.0\ProjAfonso.RazorAssemblyInfo.cs
 C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ProjAfonso\obj\Debug\net8.0\ProjAfonso.sourcelink.json
-C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ProjAfonso\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ProjAfonso\bin\Debug\net8.0\appsettings.json
 C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ProjAfonso\bin\Debug\net8.0\ProjAfonso.staticwebassets.runtime.json
 C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ProjAfonso\bin\Debug\net8.0\ProjAfonso.exe

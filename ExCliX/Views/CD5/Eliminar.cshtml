@@ -1,0 +1,29 @@
+﻿@model ExCliX.Models.Cliente
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h1>Eliminar Cliente</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <label class="form-label" asp-for="Nome"></label>
+            <input class="form-control" asp-for="Nome" type="text" readonly>
+            <label class="form-label mt-3" asp-for="Referencia"></label>
+            <input class="form-control mb-3" asp-for="Referencia" readonly>
+
+            <form asp-action="Eliminar">
+                <input type="hidden" asp-for="Id">
+                <div class="d-flex gap-2">
+                    <a id="btnModal" class="btn btn-danger">
+                        Eliminar</button>
+                        <a class="btn btn-secondary" asp-action="Index">Retornar</a>
+                </div>
+
+                <partial name="_EliminarModal"></partial>
+            </form>
+        </div>
+    </div>
+</div>

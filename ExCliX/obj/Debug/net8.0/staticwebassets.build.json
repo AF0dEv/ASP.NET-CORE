@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0oe06WxKlQy0/GqPqekezPpFIhfBfWqZYusqnIKJe/4=",
+  "Hash": "5UtZg+DEBRmxHLlstswopL+UomXZSj5McRr015qSmrE=",
   "Source": "ExCliX",
   "BasePath": "_content/ExCliX",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\accountability-home-image.png"
+    },
+    {
+      "Identity": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\wwwroot\\js\\eliminar.js",
+      "SourceId": "ExCliX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\wwwroot\\",
+      "BasePath": "_content/ExCliX",
+      "RelativePath": "js/eliminar.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\eliminar.js"
     },
     {
       "Identity": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\wwwroot\\js\\site.js",

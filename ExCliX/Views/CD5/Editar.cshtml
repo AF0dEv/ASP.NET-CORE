@@ -1,0 +1,22 @@
+﻿@model ExCliX.Models.Cliente
+
+<div class="container">
+    <div class="row">
+        <h1>Editar Cliente</h1>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <form asp-action="Adicionar" method="POST">
+                <label class="form-label" asp-for="Nome"></label>
+                <input class="form-control" asp-for="Nome" type="text">
+                <label class="form-label mt-3" asp-for="Referencia"></label>
+                <input class="form-control mb-3" asp-for="Referencia">
+                <div class="d-flex gap-2">
+                    <button class="btn btn-success" type="submit">Editar</button>
+                    <a class="btn btn-secondary" asp-action="Index">Retornar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Cliente>
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<div class="container">
+    <div class="row">
+        <h1>Clientes</h1>
+        <hr>
+    </div>
+    <div class="row mt-2">
+        <div class="col-6">
+            <a class="btn btn-primary" asp-action="Adicionar">Adicionar Novo Cliente</a>
+        </div>
+        <div class="col-6">
+            <form asp-action="Index" method="get">
+                <div class="d-flex gap-2">
+                    <input class="form-control" name="nomeCliente" type="text" value='@ViewData["NomeCliente"]' placeholder="Filtrar por nome">
+                    <button class="btn btn-primary w-25" type="submit">Filtrar</button>
+                    <a class="btn btn-secondary w-25" asp-action="Index">Limpar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <table class="table align-middle">
+            <thead>
+                @if (ViewBag.ordenarPor == "Id")
+                {
+                <th><a asp-action="Index" asp-route-ordenarPor="IdDesc" asp-route-nomeCliente='@ViewData["NomeCliente"]'>Id Cliente</a></th>
+                }
+                else
+                {
+                <th><a asp-action="Index" asp-route-ordenarPor="Id" asp-route-nomeCliente='@ViewData["NomeCliente"]'>Id Cliente</a></th>
+                }
+
+                @if (ViewBag.ordenarPor == "Nome")
+                {
+                <th><a asp-action="Index" asp-route-ordenarPor="NomeDesc" asp-route-nomeCliente='@ViewData["NomeCliente"]'>Nome Cliente</a></th>
+                }
+                else
+                {
+                <th><a asp-action="Index" asp-route-ordenarPor="Nome" asp-route-nomeCliente='@ViewData["NomeCliente"]'>Nome Cliente</a></th>
+                }
+
+                @if (ViewBag.ordenarPor == "Referencia")
+                {
+                <th><a asp-action="Index" asp-route-ordenarPor="ReferenciaDesc" asp-route-nomeCliente='@ViewData["NomeCliente"]'>Referencia</a></th>
+                }
+                else
+                {
+                <th><a asp-action="Index" asp-route-ordenarPor="Referencia" asp-route-nomeCliente='@ViewData["NomeCliente"]'>Referencia</a></th>
+                }
+            <th></th>
+            </thead>
+            <tbody>
+                @foreach (var cliente in Model)
+                {
+                    <tr>
+                        <td>@cliente.Id</td>
+                        <td>@cliente.Nome</td>
+                        <td>@cliente.Referencia</td>
+                        <td class="d-flex justify-content-end gap-2">
+                            <a class="btn btn-success" asp-action="Editar" asp-route-id="@cliente.Id">Editar</a>
+                            <a class="btn btn-danger" asp-action="Eliminar" asp-route-id="@cliente.Id">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

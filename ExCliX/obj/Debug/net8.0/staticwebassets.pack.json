@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\accountability-home-image.png"
     },
     {
+      "Id": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\wwwroot\\js\\eliminar.js",
+      "PackagePath": "staticwebassets\\js\\eliminar.js"
+    },
+    {
       "Id": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

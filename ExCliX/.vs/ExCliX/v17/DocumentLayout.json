@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\wwwroot\\js\\eliminar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:wwwroot\\js\\eliminar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd5\\_eliminarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd5\\_eliminarmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd5\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd5\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\controllers\\cd4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:controllers\\cd4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd5\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd5\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\views\\cd4\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd4\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd5\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd5\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\controllers\\cd5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:controllers\\cd5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd5\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd5\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,74 +38,102 @@
       "DocumentGroups": [
         {
           "DockedHeight": 245,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CD4.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD4.cs",
-              "RelativeDocumentMoniker": "Controllers\\CD4.cs",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD4.cs",
-              "RelativeToolTip": "Controllers\\CD4.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAADwvw8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T11:52:51.642Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Models\\Cliente.cs",
-              "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T14:18:40.049Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T12:31:29.834Z",
+              "Title": "eliminar.js",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\wwwroot\\js\\eliminar.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\eliminar.js",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\wwwroot\\js\\eliminar.js",
+              "RelativeToolTip": "wwwroot\\js\\eliminar.js",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAE0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-27T16:16:19.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-26T12:29:34.364Z",
+              "Title": "_EliminarModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\_EliminarModal.cshtml",
+              "RelativeDocumentMoniker": "Views\\CD5\\_EliminarModal.cshtml",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\_EliminarModal.cshtml",
+              "RelativeToolTip": "Views\\CD5\\_EliminarModal.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T16:15:20.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "Views\\CD5\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\Eliminar.cshtml",
+              "RelativeToolTip": "Views\\CD5\\Eliminar.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T16:14:33.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\CD5\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\Editar.cshtml",
+              "RelativeToolTip": "Views\\CD5\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T16:13:33.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD4\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\CD4\\Index.cshtml",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD4\\Index.cshtml",
-              "RelativeToolTip": "Views\\CD4\\Index.cshtml",
-              "ViewState": "AQIAACMAAAAAAAAAAAAswDwAAAAQAAAA",
+              "Title": "Adicionar.cshtml",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\Adicionar.cshtml",
+              "RelativeDocumentMoniker": "Views\\CD5\\Adicionar.cshtml",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\Adicionar.cshtml",
+              "RelativeToolTip": "Views\\CD5\\Adicionar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-22T12:07:15.104Z"
+              "WhenOpened": "2024-03-27T16:10:55.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CD5\\Index.cshtml",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD5\\Index.cshtml",
+              "RelativeToolTip": "Views\\CD5\\Index.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAwwD0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T16:08:55.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CD5.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD5.cs",
+              "RelativeDocumentMoniker": "Controllers\\CD5.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD5.cs",
+              "RelativeToolTip": "Controllers\\CD5.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:07:09.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             }
           ]
         }
