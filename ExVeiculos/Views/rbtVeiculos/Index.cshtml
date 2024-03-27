@@ -1,0 +1,32 @@
+﻿<h1>Selecione um Botão</h1>
+@using (Html.BeginForm("Index", "rbtVeiculos", FormMethod.Post))
+{
+    @Html.RadioButton("rbtFiltro", "1", true) <label for="rbtFiltro">2010 a 2020</label>
+    <br />
+    @Html.RadioButton("rbtFiltro", "2") <label for="rbtFiltro">Maior que 2021</label>
+    <br />
+
+    <input type="submit" value="Filtrar" />
+}
+@if (ViewBag.Veiculos != null && ViewBag.Veiculos.ToString() != "vazio")
+{
+    <table class="table table-striped table-borderless table-dark">
+        <tr>
+            <th>Matricula</th>
+            <th>Marca</th>
+            <th>Ano</th>
+        </tr>
+        @foreach (Veiculo v in ViewBag.Veiculos)
+        {
+            <tr>
+                <td>@v.Matricula</td>
+                <td>@v.Marca</td>
+                <td>@v.Ano</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>Não Existe Veiculos</p>
+}

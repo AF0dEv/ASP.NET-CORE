@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Selecione um Cliente</title>
+    <style>
+
+        h1 {
+            color: black;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        select {
+            padding: 5px;
+            width: 200px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selecione uma Categoria</h1>
+    @using (Html.BeginForm("Index", "VeiculoCategoria", FormMethod.Post))
+    {
+        @Html.DropDownList("cbxCategorias", (SelectList)ViewBag.LISTACATEGORIAS, "Escolha uma Categoria...",
+        htmlAttributes: new { onchange = "this.form.submit();" })
+ 
+        <br />
+        @if (ViewBag.LISTAVEICULOS != null && ViewBag.LISTAVEICULOS.ToString() != "vazio")
+        {
+            <table class="table table-striped table-borderless table-dark">
+                <tr>
+                    <th>Matricula</th>
+                    <th>Marca</th>
+                    <th>Ano</th>
+                </tr>
+                @foreach (Veiculo v in ViewBag.LISTAVEICULOS)
+                {
+                    <tr>
+                        <td>@v.Matricula</td>
+                        <td>@v.Marca</td>
+                        <td>@v.Ano</td>
+                    </tr>
+                }
+            </table>
+        }
+        else
+        {   
+            <p>Não Existe Veiculos</p>
+        }
+    }
+</body>
+</html>

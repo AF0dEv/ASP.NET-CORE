@@ -1,0 +1,50 @@
+﻿<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+    }
+
+    #div {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 500px;
+    }
+
+    h4 {
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #333;
+        margin-top: 0;
+    }
+</style>
+
+<h1>ESTATISTICAS</h1>
+<hr />
+<div id="div">
+    <h4>Quantos Veiculos Existe?</h4>
+    <p>@ViewBag.TotalVeiculos</p>
+    <hr />
+    <h4>Quantas Categorias Existe?</h4>
+    <p>@ViewBag.TotalCategorias</p>
+    <hr />
+    <h4>Há Veiculos Acima de 2017?</h4>
+    <p>@ViewBag.ExistemVeiculosRecentes</p>
+</div>

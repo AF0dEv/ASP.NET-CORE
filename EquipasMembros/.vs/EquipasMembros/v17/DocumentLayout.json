@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\equipasmembros\\views\\c30_opc123\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|solutionrelative:views\\c30_opc123\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\equipasmembros\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\controllers\\c30_opc123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|solutionrelative:controllers\\c30_opc123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\equipasmembros\\models\\equipa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|solutionrelative:models\\equipa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\equipasmembros\\models\\membro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120034CF-381F-4DCE-BE44-23D884F2D896}|EquipasMembros.csproj|solutionrelative:models\\membro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Views\\C30_Opc123\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\C30_Opc123\\Index.cshtml",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Views\\C30_Opc123\\Index.cshtml",
-              "RelativeToolTip": "Views\\C30_Opc123\\Index.cshtml",
-              "ViewState": "AQIAADEAAAAAAAAAAAAswFUAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T09:01:06.458Z",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T21:55:14.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Membro.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Models\\Membro.cs",
+              "RelativeDocumentMoniker": "Models\\Membro.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Models\\Membro.cs",
+              "RelativeToolTip": "Models\\Membro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T21:50:42.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "C30_Opc123.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Controllers\\C30_Opc123.cs",
-              "RelativeDocumentMoniker": "Controllers\\C30_Opc123.cs",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Controllers\\C30_Opc123.cs",
-              "RelativeToolTip": "Controllers\\C30_Opc123.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAxwBgAAAA8AAAA",
+              "Title": "Equipa.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Models\\Equipa.cs",
+              "RelativeDocumentMoniker": "Models\\Equipa.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\EquipasMembros\\Models\\Equipa.cs",
+              "RelativeToolTip": "Models\\Equipa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T08:57:43.878Z"
+              "WhenOpened": "2024-03-27T21:50:30.65Z",
+              "EditorCaption": ""
             }
           ]
         }
