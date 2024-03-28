@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<style>
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<h1>Register</h1>
+
+@using (Html.BeginForm("Index", "C5_Registar", HttpMethod.Post))
+{
+    <div class="form-group">
+        <label for="NomeUtilizador">Username</label>
+        <input type="text" class="form-control" name="NomeUtilizador" required>
+    </div>
+    <div class="form-group">
+        <label for="senha">Password</label>
+        <input type="password" class="form-control" name="senha" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+}

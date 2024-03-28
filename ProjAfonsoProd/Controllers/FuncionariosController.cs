@@ -22,6 +22,7 @@ namespace ProjAfonsoProd.Controllers
         // GET: Funcionarios
         public async Task<IActionResult> Index()
         {
+            HttpContext.Session.SetString("CONTROLADOR", "Funcionarios");
             return View(await _context.Tfuncionarios.ToListAsync());
         }
 

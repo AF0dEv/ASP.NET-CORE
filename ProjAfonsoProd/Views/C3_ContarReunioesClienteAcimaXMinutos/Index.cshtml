@@ -1,0 +1,29 @@
+﻿@using (Html.BeginForm("Index", "C3_ContarReunioesClienteAcimaXMinutos", HttpMethod.Post))
+{
+    <div class="form-group">
+        <label for="txtTempo">Minutos:</label>
+        <input type="number" name="txtTempo" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="txtCliente">Cliente:</label>
+        <input type="text" name="txtCliente" class="from-control" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Contar</button>
+    @if (ViewBag.ReunioesCliente != null && ViewBag.ReunioesCliente.ToString() != "vazio")
+    {
+        <ul class="list-group">
+            <li class="list-group-item">
+                Contagem de Minutos Acima do Tempo: @ViewBag.SumMinutos
+            </li>
+            <li class="list-group-item">
+                Contagem de Reunioes Acima do Tempo: @ViewBag.Contagem
+            </li>
+        </ul>
+    }
+    else
+    {
+        <p>Não Existe Reunioes</p>    
+    }
+}

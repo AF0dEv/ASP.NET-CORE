@@ -22,6 +22,7 @@ namespace ProjAfonsoProd.Controllers
         // GET: Reunioes
         public async Task<IActionResult> Index()
         {
+            HttpContext.Session.SetString("CONTROLADOR", "Reunioes");
             var applicationDbContext = _context.Treunioes.Include(r => r.Cliente).Include(r => r.Funcionario);
             return View(await applicationDbContext.ToListAsync());
         }

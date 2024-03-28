@@ -11,7 +11,7 @@ namespace Login23.Controllers
             if (HttpContext.Session.GetString("UTILIZADOR") == "" || HttpContext.Session.GetString("UTILIZADOR") == null)
             {
                 HttpContext.Session.SetString("CONTROLADOR", "Privada");
-                return RedirectToAction("Index", "Login");
+                return RedirectToAction("Index", "C5_Login");
             }
             else
             {

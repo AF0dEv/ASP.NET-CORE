@@ -14,6 +14,7 @@ namespace ProjAfonsoProd.Controllers
         }
         public IActionResult Index(string? txtCliente)
         {
+            HttpContext.Session.SetString("CONTROLADOR", "C2_ListarReunioesClienteSumMinutos");
             if (txtCliente == null)
             {
                 ViewBag.SumMinutos = "vazio"; 

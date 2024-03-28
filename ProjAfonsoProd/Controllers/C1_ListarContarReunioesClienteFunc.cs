@@ -15,6 +15,7 @@ namespace ProjAfonsoProd.Controllers
         }
         public IActionResult Index(int? cbxFunc, int? cbxCliente)
         {
+            HttpContext.Session.SetString("CONTROLADOR", "C1_ListarContarReunioesClienteFunc");
             ViewBag.Funcionarios = new SelectList(_context.Tfuncionarios.OrderBy(f => f.Id), "Id", "Nome");
             ViewBag.Clientes = new SelectList(_context.Tclientes.OrderBy(c => c.Id), "Id", "Nome");
 

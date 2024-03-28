@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd3\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd3\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd3\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd3\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\views\\cd1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd3\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd3\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\views\\cd3\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd3\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\controllers\\cd2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:controllers\\cd2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\controllers\\cd4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:controllers\\cd4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exclix\\controllers\\cd5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:controllers\\cd5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\views\\cd1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\controllers\\cd1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:controllers\\cd1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\views\\cd2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A304A0-BCEC-48EF-9C02-55B4191C9707}|ExCliX.csproj|solutionrelative:views\\cd2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +63,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Models\\Cliente.cs",
-              "RelativeToolTip": "Models\\Cliente.cs",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD3\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\CD3\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD3\\Edit.cshtml",
+              "RelativeToolTip": "Views\\CD3\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T09:21:24.755Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T11:37:27.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD3\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\CD3\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD3\\Delete.cshtml",
+              "RelativeToolTip": "Views\\CD3\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T11:35:58.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD3\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Views\\CD3\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD3\\Criar.cshtml",
+              "RelativeToolTip": "Views\\CD3\\Criar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T11:34:49.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD3\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CD3\\Index.cshtml",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD3\\Index.cshtml",
+              "RelativeToolTip": "Views\\CD3\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T11:33:11.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:26:01.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CD4.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD4.cs",
+              "RelativeDocumentMoniker": "Controllers\\CD4.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD4.cs",
+              "RelativeToolTip": "Controllers\\CD4.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:25:26.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CD5.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD5.cs",
+              "RelativeDocumentMoniker": "Controllers\\CD5.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD5.cs",
+              "RelativeToolTip": "Controllers\\CD5.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:25:18.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD2\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\CD2\\Index.cshtml",
@@ -64,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CD2.cs",
               "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD2.cs",
               "RelativeDocumentMoniker": "Controllers\\CD2.cs",
@@ -72,31 +174,34 @@
               "RelativeToolTip": "Controllers\\CD2.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T23:02:09.793Z"
+              "WhenOpened": "2024-03-27T23:02:09.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD1\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\CD1\\Index.cshtml",
               "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Views\\CD1\\Index.cshtml",
               "RelativeToolTip": "Views\\CD1\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACcAAAAZAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T22:20:11.236Z"
+              "WhenOpened": "2024-03-27T22:20:11.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "CD1.cs",
               "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD1.cs",
               "RelativeDocumentMoniker": "Controllers\\CD1.cs",
               "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExCliX\\Controllers\\CD1.cs",
               "RelativeToolTip": "Controllers\\CD1.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAaAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T22:16:59.576Z"
+              "WhenOpened": "2024-03-27T22:16:59.576Z",
+              "EditorCaption": ""
             }
           ]
         }

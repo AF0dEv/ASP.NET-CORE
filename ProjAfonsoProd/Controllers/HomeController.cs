@@ -15,6 +15,7 @@ namespace ProjAfonsoProd.Controllers
 
         public IActionResult Index()
         {
+            HttpContext.Session.SetString("CONTROLADOR", "Home");
             return View();
         }
 

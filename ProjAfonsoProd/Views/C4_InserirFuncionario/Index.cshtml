@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+<h1 class="h1 text-black">Funcionários</h1>
+<p>
+    <a class="link-info" asp-action="Criar">Create New</a>
+</p>
+<table class="table table-striped table-borderless table-dark">
+    <thead>
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Funcionario f in ViewBag.Funcionarios)
+        {
+            <tr>
+                <td>
+                    @f.Nome
+                </td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@f.Id">Edit</a> |
+                    <a asp-action="Apagar" asp-route-id="@f.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

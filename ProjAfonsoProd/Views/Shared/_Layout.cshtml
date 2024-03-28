@@ -46,7 +46,38 @@
                                 <li class="nav-item">
                                     <a class="dropdown-item text-black" asp-area="" asp-controller="C2_ListarReunioesClienteSumMinutos" asp-action="Index">2</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item text-black" asp-area="" asp-controller="C3_ContarReunioesClienteAcimaXMinutos" asp-action="Index">3</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item text-black" asp-area="" asp-controller="C4_InserirFuncionario" asp-action="Index">Funcionários</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item text-black" asp-area="" asp-controller="C5_Registar" asp-action="Index">Registar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item text-black" asp-area="" asp-controller="C5_Login" asp-action="Index">Login</a>
+                                </li>
                             </ul>
+                        </li>
+                        <li class ="nav-item">
+                            <a class="nav-link text-dark">
+                                @{
+                                    if (Context.Session.GetString("UTILIZADOR") == "" || Context.Session.GetString("UTILIZADOR") == null)
+                                    {
+                                        string s = "Não Logado";
+                                        @s
+                                    }
+                                    else
+                                    {
+                                        string s = "Logado com:" + Context.Session.GetString("UTILIZADOR");
+                                        @s
+                                    }
+                                }
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="C5_LogOut" asp-action="Index">LogOut</a>
                         </li>
                     </ul>
                 </div>

@@ -1,0 +1,22 @@
+﻿@model ProjAfonsoProd.Models.Funcionario
+
+<h1 class="h1 text-black">Delete</h1>
+
+<h3 class="h3 text-white-50">Tem a certeza que quer apagar este</h3>
+<div>
+    <h4 class="h4 text-white-50">Funcionário?</h4>
+    <hr />
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark">
+
+            <text class="fw-bold">Nome:</text>
+
+            @Html.DisplayFor(model => model.Nome)
+        </li>
+    </ul>
+    <form asp-action="ConfirmarApagar">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Apagar" class="btn btn-danger" /> |
+        <a class="link-info" asp-action="Index">Back to List</a>
+    </form>
+</div>
