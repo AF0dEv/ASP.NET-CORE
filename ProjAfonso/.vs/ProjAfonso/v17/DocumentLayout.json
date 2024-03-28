@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\projafonso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\projafonso\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\projafonso\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|solutionrelative:models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\projafonso\\models\\reuniao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|solutionrelative:models\\reuniao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\projafonso.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|solutionrelative:projafonso.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\projafonso\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\projafonso\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601BD054-1B6D-4C35-9BC9-B143424514B7}|ProjAfonso.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:36:23.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reuniao.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Models\\Reuniao.cs",
+              "RelativeDocumentMoniker": "Models\\Reuniao.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Models\\Reuniao.cs",
+              "RelativeToolTip": "Models\\Reuniao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:22:54.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "Models\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Models\\Funcionario.cs",
+              "RelativeToolTip": "Models\\Funcionario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:22:28.704Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -51,52 +94,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-27T14:54:11.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProjAfonso",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\ProjAfonso.csproj",
-              "RelativeDocumentMoniker": "ProjAfonso.csproj",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\ProjAfonso.csproj",
-              "RelativeToolTip": "ProjAfonso.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-27T14:56:45.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T14:47:45.456Z",
+              "WhenOpened": "2024-03-28T09:25:44.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "Controllers\\ClientesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ProjAfonso\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T14:45:06.867Z"
+              "WhenOpened": "2024-03-28T09:20:23.413Z",
+              "EditorCaption": ""
             }
           ]
         }

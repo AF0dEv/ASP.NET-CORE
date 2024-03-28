@@ -26,26 +26,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\afons\source\repos\AF0dEv\ASP.NET CORE\ASP.NET-CORE\ProjAfonso
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ProjAfonso/Views/Clientes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ProjAfonso/Views/Clientes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ProjAfonso/Views/Clientes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ProjAfonso/Views/Clientes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ProjAfonso/Views/Clientes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/afons/source/repos/AF0dEv/ASP.NET CORE/ASP.NET-CORE/ProjAfonso/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

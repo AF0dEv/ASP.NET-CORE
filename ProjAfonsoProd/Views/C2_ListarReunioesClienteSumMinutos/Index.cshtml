@@ -1,0 +1,41 @@
+﻿@using (Html.BeginForm("Index", "C2_ListarReunioesClienteSumMinutos", FormMethod.Post))
+{
+    <h1 style="text-align: center;">Escreva o Nome do Cliente a Procurar</h1>
+    <div style="display: flex; justify-content: center;">
+        <input type="text" name="txtCliente" style="margin-right: 10px;" />
+        <input type="submit" value="Procurar" class="btn btn-primary" />
+    </div>
+    <br />
+    @if (ViewBag.ReunioesCliente != null && ViewBag.ReunioesCliente.ToString() != "vazio")
+    {
+        <table class="table table-striped table-borderless table-dark">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Duração</th>
+                    <th>Resumo</th>
+                    <th>Cliente</th>
+                    <th>Funcionario</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Reuniao r in ViewBag.ReunioesCliente)
+                {
+                    <tr>
+                        <td>@r.Data</td>
+                        <td>@r.duracao</td>
+                        <td>@r.Resumo</td>
+                        <td>@r.Cliente?.Nome</td>
+                        <td>@r.Funcionario?.Nome</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <ul class="list-group">
+            <li class="list-group-item">Contagem Minutos Reuniões: @ViewBag.SumMinutos</li>
+        </ul>
+    }else
+    {
+        <p style="text-align:center">Não Existe Reuniões</p>
+    }
+}

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exveiculos\\views\\rbtveiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|solutionrelative:views\\rbtveiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exveiculos\\controllers\\filtroveiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|solutionrelative:controllers\\filtroveiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exveiculos\\controllers\\rbtveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|solutionrelative:controllers\\rbtveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exveiculos\\controllers\\estatisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|solutionrelative:controllers\\estatisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exveiculos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exveiculos\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|solutionrelative:models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|c:\\users\\afons\\source\\repos\\af0dev\\asp.net core\\asp.net-core\\exveiculos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33D27A3-F2FC-466F-ABD7-86BE4EE7D73B}|ExVeiculos.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Views\\rbtVeiculos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\rbtVeiculos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Views\\rbtVeiculos\\Index.cshtml",
-              "RelativeToolTip": "Views\\rbtVeiculos\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T23:07:59.612Z",
+              "Title": "FiltroVeiculo.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Controllers\\FiltroVeiculo.cs",
+              "RelativeDocumentMoniker": "Controllers\\FiltroVeiculo.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Controllers\\FiltroVeiculo.cs",
+              "RelativeToolTip": "Controllers\\FiltroVeiculo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:50:58.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "rbtVeiculos.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Controllers\\rbtVeiculos.cs",
-              "RelativeDocumentMoniker": "Controllers\\rbtVeiculos.cs",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Controllers\\rbtVeiculos.cs",
-              "RelativeToolTip": "Controllers\\rbtVeiculos.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBcAAAAMAAAA",
+              "Title": "Estatisticas.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Controllers\\Estatisticas.cs",
+              "RelativeDocumentMoniker": "Controllers\\Estatisticas.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Controllers\\Estatisticas.cs",
+              "RelativeToolTip": "Controllers\\Estatisticas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T23:07:13.01Z",
+              "WhenOpened": "2024-03-28T09:49:21.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:21:52.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAuwCsAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T22:01:22.685Z",
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Models\\Veiculo.cs",
+              "RelativeDocumentMoniker": "Models\\Veiculo.cs",
+              "ToolTip": "C:\\Users\\afons\\source\\repos\\AF0dEv\\ASP.NET CORE\\ASP.NET-CORE\\ExVeiculos\\Models\\Veiculo.cs",
+              "RelativeToolTip": "Models\\Veiculo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:21:49.487Z",
               "EditorCaption": ""
             }
           ]

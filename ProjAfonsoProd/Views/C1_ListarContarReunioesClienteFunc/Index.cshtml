@@ -1,0 +1,46 @@
+﻿@using (Html.BeginForm("Index", "C1_ListarContarReunioesClienteFunc", FormMethod.Post))
+{
+    <div style="margin: 20px;">
+        <h1>Escolha um Cliente</h1>
+        @Html.DropDownList("cbxCliente", (SelectList)ViewBag.Clientes, "Selecione um Cliente...", new { @class = "form-control" })
+        <br />
+        <h1>Escolha um Funcionário</h1>
+        @Html.DropDownList("cbxFunc", (SelectList)ViewBag.Funcionarios, "Selecione um Funcionário...", new { @class = "form-control" })
+        <br />
+        <input type="submit" value="Listar e Contar Reuniões" class="btn btn-primary" />
+        <br />
+        @if (ViewBag.Reunioes != null && ViewBag.Reunioes.ToString() != "vazio")
+        {
+            <table class="table table-striped table-borderless table-dark">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Data</th>
+                        <th>Duração</th>
+                        <th>Resumo</th>
+                        <th>Cliente</th>
+                        <th>Funcionario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Reuniao r in ViewBag.Reunioes)
+                    {
+                        <tr>
+                            <td>@r.Data</td>
+                            <td>@r.duracao</td>
+                            <td>@r.Resumo</td>
+                            <td>@r.Cliente?.Nome</td>
+                            <td>@r.Funcionario?.Nome</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <ul class="list-group">
+                <li class="list-group-item">Contagem Reuniões: @ViewBag.Contagem</li>
+            </ul>
+        }
+        else
+        {
+            <p>Não Existe Reuniões</p>
+        }
+    </div>
+}
